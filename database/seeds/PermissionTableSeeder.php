@@ -20,7 +20,11 @@ class PermissionTableSeeder extends Seeder
             'storage-list',
             'storage-create',
             'storage-edit',
-            'storage-delete'
+            'storage-delete',
+            'city-list',
+            'city-create',
+            'city-edit',
+            'city-delete',
          ];
 
          foreach ($permissions as $permission) {
